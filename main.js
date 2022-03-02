@@ -20,7 +20,7 @@ easyBtn.addEventListener("click", function() {
     startMenu.style.display = "none";
     line.style.display = "block";
     mainBox.style.display = "block";
-    document.querySelector("h1").style.background = "rgb(233, 119, 119)";
+    document.querySelector("h1").style.background = "rgb(21, 172, 147)";
 
     statusText.textContent = "";
 
@@ -46,7 +46,7 @@ hardBtn.addEventListener("click", function() {
     line.style.display = "block";
     mainBox.style.display = "block";
 
-    document.querySelector("h1").style.background = "rgb(233, 119, 119)";
+    document.querySelector("h1").style.background = "rgb(21, 172, 147)";
 
     statusText.textContent = "";
 
@@ -68,7 +68,7 @@ reload.addEventListener("click", function(){
 
 
 playbtn.addEventListener("click", function() {
-    document.querySelector("h1").style.background = "rgb(233, 119, 119)";
+    document.querySelector("h1").style.background = "rgb(21, 172, 147)";
 
     playbtn.textContent = "New Colors";
     statusText.textContent = "";
@@ -111,7 +111,8 @@ function win() {
 
 function loose(a) {
     console.log(a);
-    a.style.background = "#2f2f2f"
+    a.style.background = "#2f2f2f";
+    a.style.transition = ""
     statusText.textContent = "Try Again !";
 }
 
